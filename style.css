@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,280 @@ nav{
 }
 nav a{
     font-size: 30px;
+} */
+
+
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
 }
 
+/* BODY */
+
+body{
+
+background:
+radial-gradient(circle at 20% 20%,
+rgba(71,88,255,.18),
+transparent 35%),
+
+linear-gradient(
+135deg,
+#020a2a,
+#071f6d,
+#0b2d88
+);
+
+color:white;
+
+min-height:100vh;
+
+display:flex;
+
+flex-direction:column;
+
+overflow:hidden;
+
+position:relative;
+}
+
+
+/* NAVBAR */
+
+header{
+
+padding:30px 90px;
+
+}
+
+nav{
+
+display:flex;
+
+justify-content:flex-end;
+
+gap:30px;
+
+}
+
+nav button{
+
+background:none;
+
+border:none;
+
+}
+
+nav button a{
+
+color:#ffffff;
+
+text-decoration:none;
+
+font-size:12px;
+
+opacity:.8;
+
+transition:.3s;
+
+}
+
+nav button a:hover{
+
+color:#7d88ff;
+
+}
+
+
+/* MAIN */
+
+main{
+
+flex:1;
+
+padding-left:80px;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+max-width:600px;
+
+}
+
+
+/* TEXT */
+
+h4{
+
+font-size:13px;
+
+margin-bottom:18px;
+
+color:#d9ddff;
+
+}
+
+h1{
+
+font-size:72px;
+
+line-height:1.1;
+
+font-weight:700;
+
+margin-bottom:18px;
+
+}
+
+p{
+
+font-size:14px;
+
+line-height:1.7;
+
+color:#c7cbf0;
+
+max-width:420px;
+
+margin-bottom:40px;
+
+}
+
+
+/* BUTTONS */
+
+main button{
+
+width:150px;
+
+height:45px;
+
+border-radius:6px;
+
+cursor:pointer;
+
+margin-right:12px;
+
+transition:.3s;
+
+}
+
+
+/* FIRST BUTTON */
+
+main button:first-of-type{
+
+background:#101f58;
+
+border:none;
+
+box-shadow:
+0 0 25px rgba(71,88,255,.3);
+
+}
+
+main button:first-of-type:hover{
+
+transform:translateY(-3px);
+
+}
+
+
+/* SECOND BUTTON */
+
+main button:last-of-type{
+
+background:transparent;
+
+border:1px solid rgba(255,255,255,.25);
+
+}
+
+main button:last-of-type:hover{
+
+background:rgba(255,255,255,.06);
+
+}
+
+
+main button a{
+
+text-decoration:none;
+
+color:white;
+
+font-size:12px;
+
+}
+
+
+/* FOOTER */
+
+footer{
+
+text-align:center;
+
+padding:20px;
+
+font-size:12px;
+
+color:#b6bcf0;
+
+}
+
+
+/* RIGHT CIRCLE */
+
+body::after{
+
+content:"";
+
+position:absolute;
+
+right:220px;
+
+top:180px;
+
+width:90px;
+
+height:90px;
+
+border-radius:50%;
+
+border:2px solid rgba(131,146,255,.6);
+
+box-shadow:
+
+0 0 40px rgba(91,101,255,.4);
+
+}
+
+
+body::before{
+
+content:"";
+
+position:absolute;
+
+right:260px;
+
+top:220px;
+
+width:8px;
+
+height:8px;
+
+background:#a8b0ff;
+
+border-radius:50%;
+
+}
 
 
