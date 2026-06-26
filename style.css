@@ -1,17 +1,4 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-nav{
-    background-color: blue;
-}
-nav a{
-    font-size: 30px;
-} */
 
-
-/* RESET */
 
 *{
     margin:0;
@@ -20,13 +7,12 @@ nav a{
     font-family:Arial, sans-serif;
 }
 
-/* BODY */
 
 body{
 
 background:
 radial-gradient(circle at 20% 20%,
-rgba(71,88,255,.18),
+rgba(26, 35, 111, 0.18),
 transparent 35%),
 
 linear-gradient(
@@ -48,9 +34,6 @@ overflow:hidden;
 
 position:relative;
 }
-
-
-/* NAVBAR */
 
 header{
 
@@ -97,8 +80,6 @@ color:#7d88ff;
 }
 
 
-/* MAIN */
-
 main{
 
 flex:1;
@@ -115,8 +96,6 @@ max-width:600px;
 
 }
 
-
-/* TEXT */
 
 h4{
 
@@ -154,8 +133,6 @@ margin-bottom:40px;
 
 }
 
-
-/* BUTTONS */
 
 main button{
 
